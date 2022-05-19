@@ -1,0 +1,157 @@
+CRITICAL - 2022-05-18 21:44:04 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-18 21:45:05 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-18 21:53:44 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-18 22:14:08 --> syntax error, unexpected '=', expecting ']'
+#0 C:\newproject\discord\test rumah web\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute()
+#1 C:\newproject\discord\test rumah web\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle()
+#2 C:\newproject\discord\test rumah web\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 C:\newproject\discord\test rumah web\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\newproject\discord\test rumah web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\newproject\discord\test rumah web\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\d...')
+#6 {main}
+CRITICAL - 2022-05-18 22:14:21 --> syntax error, unexpected '=', expecting ']'
+#0 C:\newproject\discord\test rumah web\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute()
+#1 C:\newproject\discord\test rumah web\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle()
+#2 C:\newproject\discord\test rumah web\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 C:\newproject\discord\test rumah web\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\newproject\discord\test rumah web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\newproject\discord\test rumah web\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\d...')
+#6 {main}
+CRITICAL - 2022-05-18 22:14:23 --> syntax error, unexpected '=', expecting ']'
+#0 C:\newproject\discord\test rumah web\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 C:\newproject\discord\test rumah web\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 [internal function]: spl_autoload_call()
+#4 C:\newproject\discord\test rumah web\system\CodeIgniter.php(797): class_exists()
+#5 C:\newproject\discord\test rumah web\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\newproject\discord\test rumah web\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 C:\newproject\discord\test rumah web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\newproject\discord\test rumah web\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\d...')
+#9 {main}
+CRITICAL - 2022-05-18 22:26:09 --> Argument 2 passed to view() must be of the type array, null given, called in C:\newproject\discord\test rumah web\app\Controllers\Home.php on line 27
+#0 C:\newproject\discord\test rumah web\app\Controllers\Home.php(27): view()
+#1 C:\newproject\discord\test rumah web\system\CodeIgniter.php(832): App\Controllers\Home->checkdata()
+#2 C:\newproject\discord\test rumah web\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 C:\newproject\discord\test rumah web\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\newproject\discord\test rumah web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\newproject\discord\test rumah web\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\d...')
+#6 {main}
+CRITICAL - 2022-05-18 22:26:24 --> Argument 2 passed to view() must be of the type array, null given, called in C:\newproject\discord\test rumah web\app\Controllers\Home.php on line 27
+#0 C:\newproject\discord\test rumah web\app\Controllers\Home.php(27): view()
+#1 C:\newproject\discord\test rumah web\system\CodeIgniter.php(832): App\Controllers\Home->checkdata()
+#2 C:\newproject\discord\test rumah web\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 C:\newproject\discord\test rumah web\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\newproject\discord\test rumah web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\newproject\discord\test rumah web\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\d...')
+#6 {main}
+CRITICAL - 2022-05-18 22:37:24 --> Invalid file: add.php
+#0 C:\newproject\discord\test rumah web\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 C:\newproject\discord\test rumah web\system\Common.php(1089): CodeIgniter\View\View->render()
+#2 C:\newproject\discord\test rumah web\app\Controllers\Home.php(47): view()
+#3 C:\newproject\discord\test rumah web\system\CodeIgniter.php(832): App\Controllers\Home->add()
+#4 C:\newproject\discord\test rumah web\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 C:\newproject\discord\test rumah web\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 C:\newproject\discord\test rumah web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\newproject\discord\test rumah web\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\d...')
+#8 {main}
+CRITICAL - 2022-05-18 22:37:37 --> Invalid file: add.php
+#0 C:\newproject\discord\test rumah web\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 C:\newproject\discord\test rumah web\system\Common.php(1089): CodeIgniter\View\View->render()
+#2 C:\newproject\discord\test rumah web\app\Controllers\Home.php(47): view()
+#3 C:\newproject\discord\test rumah web\system\CodeIgniter.php(832): App\Controllers\Home->add()
+#4 C:\newproject\discord\test rumah web\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 C:\newproject\discord\test rumah web\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 C:\newproject\discord\test rumah web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\newproject\discord\test rumah web\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\d...')
+#8 {main}
+CRITICAL - 2022-05-18 22:38:11 --> Invalid file: add.php
+#0 C:\newproject\discord\test rumah web\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 C:\newproject\discord\test rumah web\system\Common.php(1089): CodeIgniter\View\View->render()
+#2 C:\newproject\discord\test rumah web\app\Controllers\Home.php(47): view()
+#3 C:\newproject\discord\test rumah web\system\CodeIgniter.php(832): App\Controllers\Home->add()
+#4 C:\newproject\discord\test rumah web\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 C:\newproject\discord\test rumah web\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 C:\newproject\discord\test rumah web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\newproject\discord\test rumah web\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\d...')
+#8 {main}
+CRITICAL - 2022-05-18 22:46:26 --> Invalid file: add.php
+#0 C:\newproject\discord\test rumah web\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 C:\newproject\discord\test rumah web\system\Common.php(1089): CodeIgniter\View\View->render()
+#2 C:\newproject\discord\test rumah web\app\Controllers\Home.php(48): view()
+#3 C:\newproject\discord\test rumah web\system\CodeIgniter.php(832): App\Controllers\Home->add()
+#4 C:\newproject\discord\test rumah web\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 C:\newproject\discord\test rumah web\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 C:\newproject\discord\test rumah web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\newproject\discord\test rumah web\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\d...')
+#8 {main}
+CRITICAL - 2022-05-18 22:46:38 --> Invalid file: add.php
+#0 C:\newproject\discord\test rumah web\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 C:\newproject\discord\test rumah web\system\Common.php(1089): CodeIgniter\View\View->render()
+#2 C:\newproject\discord\test rumah web\app\Controllers\Home.php(48): view()
+#3 C:\newproject\discord\test rumah web\system\CodeIgniter.php(832): App\Controllers\Home->add()
+#4 C:\newproject\discord\test rumah web\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 C:\newproject\discord\test rumah web\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 C:\newproject\discord\test rumah web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\newproject\discord\test rumah web\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\d...')
+#8 {main}
+CRITICAL - 2022-05-18 22:46:49 --> Invalid file: add.php
+#0 C:\newproject\discord\test rumah web\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 C:\newproject\discord\test rumah web\system\Common.php(1089): CodeIgniter\View\View->render()
+#2 C:\newproject\discord\test rumah web\app\Controllers\Home.php(48): view()
+#3 C:\newproject\discord\test rumah web\system\CodeIgniter.php(832): App\Controllers\Home->addfile()
+#4 C:\newproject\discord\test rumah web\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 C:\newproject\discord\test rumah web\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 C:\newproject\discord\test rumah web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\newproject\discord\test rumah web\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\d...')
+#8 {main}
+CRITICAL - 2022-05-18 22:47:05 --> Invalid file: add.php
+#0 C:\newproject\discord\test rumah web\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 C:\newproject\discord\test rumah web\system\Common.php(1089): CodeIgniter\View\View->render()
+#2 C:\newproject\discord\test rumah web\app\Controllers\Home.php(48): view()
+#3 C:\newproject\discord\test rumah web\system\CodeIgniter.php(832): App\Controllers\Home->addfile()
+#4 C:\newproject\discord\test rumah web\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 C:\newproject\discord\test rumah web\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 C:\newproject\discord\test rumah web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\newproject\discord\test rumah web\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\d...')
+#8 {main}
+CRITICAL - 2022-05-18 22:52:33 --> Call to undefined function App\Controllers\random_string()
+#0 C:\newproject\discord\test rumah web\system\CodeIgniter.php(832): App\Controllers\Home->adddata()
+#1 C:\newproject\discord\test rumah web\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 C:\newproject\discord\test rumah web\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\newproject\discord\test rumah web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\newproject\discord\test rumah web\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\d...')
+#5 {main}
+CRITICAL - 2022-05-18 22:52:59 --> Call to undefined function App\Controllers\random_string()
+#0 C:\newproject\discord\test rumah web\system\CodeIgniter.php(832): App\Controllers\Home->adddata()
+#1 C:\newproject\discord\test rumah web\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 C:\newproject\discord\test rumah web\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\newproject\discord\test rumah web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\newproject\discord\test rumah web\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\d...')
+#5 {main}
+CRITICAL - 2022-05-18 22:53:04 --> Call to undefined function App\Controllers\random_string()
+#0 C:\newproject\discord\test rumah web\system\CodeIgniter.php(832): App\Controllers\Home->adddata()
+#1 C:\newproject\discord\test rumah web\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 C:\newproject\discord\test rumah web\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\newproject\discord\test rumah web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\newproject\discord\test rumah web\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\d...')
+#5 {main}
+CRITICAL - 2022-05-18 23:02:23 --> Call to undefined function App\Controllers\random_string()
+#0 C:\newproject\discord\test rumah web\system\CodeIgniter.php(832): App\Controllers\Home->adddata()
+#1 C:\newproject\discord\test rumah web\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 C:\newproject\discord\test rumah web\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\newproject\discord\test rumah web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\newproject\discord\test rumah web\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\d...')
+#5 {main}
+CRITICAL - 2022-05-18 23:03:29 --> Call to undefined function App\Controllers\random_string()
+#0 C:\newproject\discord\test rumah web\system\CodeIgniter.php(832): App\Controllers\Home->adddata()
+#1 C:\newproject\discord\test rumah web\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 C:\newproject\discord\test rumah web\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\newproject\discord\test rumah web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\newproject\discord\test rumah web\system\Commands\Server\rewrite.php(43): require_once('C:\\newproject\\d...')
+#5 {main}
